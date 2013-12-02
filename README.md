@@ -14,7 +14,7 @@ Example of using:
 - (void)loadNodes {
     self.backgroundLayer = [[AGMovingNode alloc] initWithPointsPerSecondSpeed:100.0];
     self.backgroundLayer.name = @"background";
-    [backgroundLayer addChild:/* Add your background textures here... */ ];
+    [self.backgroundLayer addChild:/* Add your background textures here... */ ];
     [self addChild:self.backgroundLayer];
 }
 
