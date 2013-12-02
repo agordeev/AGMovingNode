@@ -2,6 +2,7 @@ Use an instance of AGMovingNode as a background layer node. All children of AGMo
 
 Example of using:
 
+```Objective-C
 @interface GameScene()
 
 @property AGMovingNode *backgroundLayer;
@@ -23,3 +24,4 @@ Example of using:
 }
 
 @end
+```
